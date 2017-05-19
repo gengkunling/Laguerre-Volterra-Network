@@ -11,7 +11,7 @@ Run trueSystem.m. It will display the true PDMs, ANFs, first order and second or
 Run LVN_main.m. The program will use the data from data.mat and optimize the sparse LVN using simulated annealing algorithm.  The training results are summarized in results.mat. 
 
 
-If you find this code useful, please cite:
+## If you find this code useful, please cite:
 
 Geng, K., & Marmarelis, V. Z. (2015). Pattern recognition of Hodgkin-Huxley equations by auto-regressive Laguerre Volterra network. BMC Neuroscience, 16(Suppl 1), P156.
 
