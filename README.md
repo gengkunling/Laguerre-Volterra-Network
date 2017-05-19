@@ -1,8 +1,10 @@
-# Lagurerre-Volterra-Network
+# Lagurerre-Volterra-Network (LVN)
+The LVN is an advanced method to analyze input output relationship in the nonlinear dynamic systems. LVN combines the idea of Laguerre kernel expansions with the connectionist modeling notion of Artificial Neural Network (ANN).
+
 ## To run this program:
 
 1.	Generate Data 
-Run data_gen.m to generate the training data data.mat.
+Run [data_gen.m](data_gen.m) to generate the training data data.mat.
 
 2.	Show the True System that Generates the Data
 Run trueSystem.m. It will display the true PDMs, ANFs, first order and second order kernels.
