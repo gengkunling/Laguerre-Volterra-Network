@@ -12,6 +12,8 @@ Run [trueSystem.m](trueSystem.m). It will display the true PDMs, ANFs, first ord
 3.	Train LVN
 Run [LVN_main.m](LVN_main.m). The program will use the data from [data.mat](data.mat) and optimize the sparse LVN using simulated annealing algorithm.  The training results are summarized in [results.mat]. 
 
+## Using Autoregressive-LVN to train Hodgkin-Huxley Equation:
+Please go to: [https://github.com/gengkunling/ASLVN](https://github.com/gengkunling/ASLVN)
 
 ## If you find this code useful, please cite:
 
