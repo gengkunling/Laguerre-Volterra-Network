@@ -3,7 +3,7 @@ clear all
 close all
 
 
-load data_single_input.mat
+load data.mat
 
 colors = [0 0 1; 1 0 0; 0 0.5 0; 0.9 0.5 0; 0 0 0];
 
