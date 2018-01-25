@@ -1,18 +1,22 @@
 # Lagurerre-Volterra-Network (LVN)
-The LVN is an advanced method to analyze input output relationship in the nonlinear dynamic systems. LVN combines the idea of Laguerre kernel expansions with the connectionist modeling notion of Artificial Neural Network (ANN).
+The LVN is an advanced method to analyze time seires data and the nonlinear dynamic relationships in the systems. 
+
+LVN combines the idea of Laguerre kernel expansions with Artificial Neural Network (ANN). The Laguerre kernel expansions can be viewed as 1-D convolutional layer in the time domain. 
+
+Unlike Long short-term memory (LSTM) network, LVN is very compact and can learn the nonlinear dynamic patterns from a very limited amount of data. 
 
 ## To run this program:
 
-1.	Generate Data 
-Run [data_gen.m](data_gen.m) to generate the training data data.mat.
+### 1.	Generate Data 
+Run [data_gen.m](data_gen.m) to generate the training data [data.mat](data.mat).
 
-2.	Show the True System that Generates the Data
+###2.	Show the True System that Generates the Data
 Run [trueSystem.m](trueSystem.m). It will display the true PDMs, ANFs, first order and second order kernels.
 
-3.	Train LVN
-Run [LVN_main.m](LVN_main.m). The program will use the data from [data.mat](data.mat) and optimize the sparse LVN using simulated annealing algorithm.  The training results are summarized in [results.mat]. 
+### 3.	Train LVN
+Run [LVN_main.m](LVN_main.m). The program will use the data from [data.mat](data.mat) and optimize the sparse LVN using simulated annealing algorithm.  The training results are summarized in [results.mat](results.mat). 
 
-## Using Autoregressive-LVN to train Hodgkin-Huxley Equation:
+## If you are looking for using Autoregressive-LVN to train Hodgkin-Huxley Equations:
 Please go to: [https://github.com/gengkunling/ASLVN](https://github.com/gengkunling/ASLVN)
 
 ## If you find this code useful, please cite:
