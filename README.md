@@ -10,7 +10,7 @@ Unlike Long short-term memory (LSTM) network, LVN is very compact and can learn 
 ### 1.	Generate Data 
 Run [data_gen.m](data_gen.m) to generate the training data [data.mat](data.mat).
 
-###2.	Show the True System that Generates the Data
+### 2.	Show the True System that Generates the Data
 Run [trueSystem.m](trueSystem.m). It will display the true PDMs, ANFs, first order and second order kernels.
 
 ### 3.	Train LVN
